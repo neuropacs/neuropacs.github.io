@@ -4,7 +4,7 @@ layout: default
 
 # Your software is 5 lines away from accurately diagnosing Parkinson's variations
 
-Neuropacs can differentiate three major Parkinsonisms (PD, MSA, and PSP) with a proven accuracy > 90%.
+Neuropacs can differentiate three major Parkinsonisms (PD, MSA, and PSP) with a [proven accuracy > 90%](https://neuropacs.com).
 
 We provide easy ways to integrate _neuropacs_ into your medical software. Whether it is a diagnostic tool, PACS system, or medical image viewer, _neuropacs_ can be easily integrated as a plugin.
 
