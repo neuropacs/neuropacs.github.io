@@ -10,9 +10,17 @@ We provide easy ways to integrate _neuropacs_ into your medical software. Whethe
 
 # JavaScript SDK
 
+Connect to _neuropacs_ diagnostic capabilities with our JavaScript SDK. [GitHub Source Code](https://github.com/neuropacs/neuropacs-js-sdk)
+
+## Getting Started
+
+### Setup
+
+### Example
+
 # Python SDK
 
-Connect to NeuroPACS diagnostic capabilities with our Python SDK.
+Connect to _neuropacs_ diagnostic capabilities with our Python SDK. [GitHub Source Code](https://github.com/neuropacs/neuropacs-py-sdk)
 
 ## Getting Started
 
