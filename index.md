@@ -26,7 +26,7 @@ Include the _neuropacs_ JavaScript SDK using the following line:
 
 ```js
 const apiKey = "your_api_key";
-const serverUrl = "http://your_neuropacs_url:5000";
+const serverUrl = "http://your_neuropacs_url";
 const productId = "PD/MSA/PSP-v1.0";
 const prediction_format = "XML";
 
