@@ -19,7 +19,7 @@ Connect to _neuropacs_ diagnostic capabilities with our JavaScript SDK. [GitHub 
 Include the _neuropacs_ JavaScript SDK using the following line:
 
 ```html
-<script src="https://neuropacs.com/js/neuropacs.min.js"></script>
+<script src="https://neuropacs.com/js/neuropacs.min.js"/>
 ```
 
 ### Initialization
