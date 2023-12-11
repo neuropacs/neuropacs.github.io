@@ -16,7 +16,47 @@ Connect to _neuropacs_ diagnostic capabilities with our JavaScript SDK. [GitHub 
 
 ### Setup
 
+Include the _neuropacs_ JavaScript SDK using the following line:
+
+```html
+<script src="https://neuropacs.com/js/neuropacs.min.js"></script>
+```
+
+### Initialization
+
+```js
+const apiKey = "your_api_key";
+const serverUrl = "http://your_neuropacs_url:5000";
+const productId = "PD/MSA/PSP-v1.0";
+const prediction_format = "XML";
+
+// INITIALIZE NEUROPACS SDK
+const npcs = new Neuropacs(apiKey, serverUrl);
+
+// GENERATE AN AES KEY
+const aesKey = npcs.generateAesKey();
+```
+
 ### Example
+
+```js
+//CONNECT TO NEUROPACS
+const connectionID = await npcs.connect(apiKey, aesKey);
+
+//CREATE A NEW JOB
+const orderID = await npcs.newJob(connectionID, aesKey);
+
+//UPLOAD A DATASET
+const dataset = [file1, file2, file3];
+const uploadStatus = await npcs.uploadDataset(dataset, orderID, connectionID, aesKey);
+
+//START A JOB
+const job = await npcs.runJob(productId, orderID, connectionID, aesKey);
+
+//GET RESULTS
+//--> Valid prediction_format options: TXT, PDF, XML, JSON, DICOMSR
+const results = await npcs.getResults(prediction_format, orderID, connectionID, aesKey);
+```
 
 # Python SDK
 
