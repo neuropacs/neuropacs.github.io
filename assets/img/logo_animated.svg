@@ -5,37 +5,37 @@
       }
 
       @keyframes circles {
-        to   { rx: 4; ry: 4; }
+        to   { rx: 4.5; ry: 4.5; }
       }
 
       .brain1{
-        stroke-dasharray: 200; 
-        stroke-dashoffset: 200; 
-        animation: brain1 5s linear infinite;
+        stroke-dasharray: 400; 
+        stroke-dashoffset: 400; 
+        animation: brain1 10s linear infinite;
       }
 
       .brain2{
-        stroke-dasharray: 28; 
-        stroke-dashoffset: 28; 
-        animation: brain1 5s linear infinite;
+        stroke-dasharray: 56; 
+        stroke-dashoffset: 56; 
+        animation: brain1 10s linear infinite;
       }
 
       .brain3{
-        stroke-dasharray: 80; 
-        stroke-dashoffset: 80; 
-        animation: brain1 5s linear infinite;
+        stroke-dasharray: 160; 
+        stroke-dashoffset: 160; 
+        animation: brain1 10s linear infinite;
       }
 
       .brain4{
-        stroke-dasharray: 20; 
-        stroke-dashoffset: 20; 
-        animation: brain1 5s linear infinite;
+        stroke-dasharray: 40; 
+        stroke-dashoffset: 40; 
+        animation: brain1 10s linear infinite;
       }
 
       .line1{
-        stroke-dasharray: 5; 
+        stroke-dasharray: 10; 
         stroke-dashoffset: 130; 
-        animation: brain1 5s linear infinite;
+        animation: brain1 10s linear infinite;
       }
       .circle1{
         animation: circles 1s linear infinite;
