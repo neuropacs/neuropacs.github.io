@@ -8,15 +8,15 @@ Neuropacs can differentiate three major Parkinsonisms (PD, MSA, and PSP) with [p
 
 We provide easy ways to integrate _neuropacs_ into your medical software. Whether it is a diagnostic tool, PACS system, or medical image viewer, _neuropacs_ can be easily integrated as a plugin.
 
-# JavaScript SDK
+# JavaScript API
 
-Connect to _neuropacs_ diagnostic capabilities with our JavaScript SDK. [GitHub Source Code](https://github.com/neuropacs/neuropacs-js-sdk)
+Connect to _neuropacs_ diagnostic capabilities with our JavaScript API. [GitHub Source Code](https://github.com/neuropacs/neuropacs-js-sdk)
 
 ## Getting Started
 
 ### Setup
 
-Include the _neuropacs_ JavaScript SDK using the following line:
+Include the _neuropacs_ JavaScript API using the following line:
 
 ```html
 <script src="https://neuropacs.com/js/neuropacs.min.js"/>
@@ -30,7 +30,7 @@ const serverUrl = "http://your_neuropacs_url";
 const productId = "PD/MSA/PSP-v1.0";
 const prediction_format = "XML";
 
-// INITIALIZE NEUROPACS SDK
+// INITIALIZE NEUROPACS API
 const npcs = new Neuropacs(apiKey, serverUrl);
 
 // GENERATE AN AES KEY
@@ -58,9 +58,9 @@ const job = await npcs.runJob(productId, orderID, connectionID, aesKey);
 const results = await npcs.getResults(prediction_format, orderID, connectionID, aesKey);
 ```
 
-# Python SDK
+# Python API
 
-Connect to _neuropacs_ diagnostic capabilities with our Python SDK. [GitHub Source Code](https://github.com/neuropacs/neuropacs-py-sdk)
+Connect to _neuropacs_ diagnostic capabilities with our Python API. [GitHub Source Code](https://github.com/neuropacs/neuropacs-py-sdk)
 
 ## Getting Started
 
@@ -83,7 +83,7 @@ prediction_format = "XML"
 # PRINT CURRENT VERSION
 version = neuropacs.PACKAGE_VERSION
 
-#INITIALIZE NEUROPACS SDK
+#INITIALIZE NEUROPACS API
 npcs = neuropacs.init(api_key, server_url)
 
 #GENERATE AN AES KEY
