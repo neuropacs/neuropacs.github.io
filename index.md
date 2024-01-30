@@ -31,31 +31,32 @@ const productId = "PD/MSA/PSP-v1.0";
 const prediction_format = "XML";
 
 // INITIALIZE NEUROPACS API
-const npcs = new Neuropacs(apiKey, serverUrl);
-
-// GENERATE AN AES KEY
-const aesKey = npcs.generateAesKey();
+const npcs = Neuropacs.init(serverUrl, apiKey);
 ```
 
 ### Example
 
 ```js
 //CONNECT TO NEUROPACS
-const connectionID = await npcs.connect(apiKey, aesKey);
+const conn = await npcs.connect();
 
 //CREATE A NEW JOB
-const orderID = await npcs.newJob(connectionID, aesKey);
+const orderID = await npcs.newJob();
 
 //UPLOAD A DATASET
 const dataset = [file1, file2, file3];
-const uploadStatus = await npcs.uploadDataset(dataset, orderID, connectionID, aesKey);
+const uploadStatus = await npcs.uploadDataset(dataset);
 
 //START A JOB
-const job = await npcs.runJob(productId, orderID, connectionID, aesKey);
+//--> Valid product_id options: "PD/MSA/PSP-v1.0"
+const job = await npcs.runJob(productId);
+
+//CHECK STATUS
+const jobStatus = await npcs.checkStatus();
 
 //GET RESULTS
-//--> Valid prediction_format options: TXT, PDF, XML, JSON, DICOMSR
-const results = await npcs.getResults(prediction_format, orderID, connectionID, aesKey);
+//--> Valid prediction_format options: TXT, XML, JSON
+const results = await npcs.getResults(prediction_format);
 ```
 
 # Python API
@@ -84,30 +85,30 @@ prediction_format = "XML"
 version = neuropacs.PACKAGE_VERSION
 
 #INITIALIZE NEUROPACS API
-npcs = neuropacs.init(api_key, server_url)
-
-#GENERATE AN AES KEY
-aes_key = npcs.generate_aes_key()
+npcs = neuropacs.init(server_url, api_key)
 ```
 
 ### Example
 
 ```py
 #CONNECT TO NEUROPACS
-connection_id = npcs.connect(api_key, aes_key)
+conn = npcs.connect()
 
 #CREATE A NEW JOB
-order_id = npcs.new_job(connection_id, aes_key)
+order_id = npcs.new_job()
 
 #UPLOAD A DATASET
 # --> dataset_path must be a valid path to a dataset <String>
-upload_status = npcs.upload_dataset(dataset_path,connection_id, order_id, aes_key)
+upload_status = npcs.upload_dataset(dataset_path)
 
 #START A JOB
-# --> Valid product_id options: PD/MSA/PSP-v1.0
-job_start_status = npcs.run_job(connection_id, aes_key, product_id, order_id)
+# --> Valid product_id options: "PD/MSA/PSP-v1.0"
+job = npcs.run_job(product_id)
+
+#CHECK STATUS
+job_status = npcs.check_status()
 
 #RETRIEVE JOB RESULTS
-# --> Valid prediction_format options: TXT, PDF, XML, JSON, DICOMSR
-job_results = npcs.get_results(prediction_format, order_id, connection_id, aes_key)
+# --> Valid prediction_format options: TXT, XML, JSON
+job_results = npcs.get_results(prediction_format)
 ```
