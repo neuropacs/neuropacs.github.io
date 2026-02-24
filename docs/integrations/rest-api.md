@@ -1,0 +1,158 @@
+---
+sidebar_position: 5
+---
+
+# REST API
+
+## Overview
+
+Our REST API ingestion option allows healthcare providers to upload DICOM imaging data securely and efficiently using AWS S3 presigned URLs. This approach leverages standard HTTPS calls to transfer files directly to cloud storage, enabling seamless integration with existing workflows.
+
+## Key Benefits
+
+- **Security**: All endpoints require scoped OAuth2 Bearer tokens, ensuring least-privilege access. Time-limited, scoped presigned URLs ensure only authorized uploads.
+- **Flexibility**: Compatible with standard HTTP clients, PACS, and custom tooling. Firewall-friendly.
+- **Access Control**: Fine-grained Role-Based Access Control (RBAC) enforces user- and group-level permissions, aligning access with organizational policies.
+
+## Authentication
+
+1. **Token Acquisition**
+
+   - Client authenticates with our OAuth2 token endpoint using client credentials or other supported grant types.
+   - A short-lived Bearer token is issued, scoped specifically for presigned URL generation and upload access.
+
+2. **Authorized Requests**
+   - Include the token in the `Authorization: Bearer <token>` header when calling the presigned URL endpoint.
+   - Our API validates the token’s scope and expiration before issuing presigned URLs.
+
+## How It Works
+
+1. **Retrieve OAuth2 token**
+
+   - **Endpoint**: `GET /auth/token`
+   - Retrieves a short-lived (1 hour) OAuth2 bearer token for API authorization from our OAuth2 endpoint.
+   - _Note: This token must be included in the 'Authorization' header._
+
+2. **Testing a token**
+
+   - **Endpoint**: `GET /test-token`
+   - Fast endpoint to test a token for validation purposes.
+
+3. **Create an order**
+
+   - **Endpoint**: `POST /new-order`
+   - Creates a new order and accepts JSON-formatted metadata. Returns a UUIDv4 unique ID.
+   - _Note: Required metadata can be provided via this API, embedded in DICOM tags, or included in a JSON sidecar during upload. Metadata received via this API will overwrite conflicting metadata tags._
+
+4. **Create a batch**
+
+   - **Endpoint**: `POST /new-batch`
+   - Creates a new batch order. Returns a UUIDv4 unique ID.
+   - _Note: Any individual orders associated with this batch must have a matching products list as the one provided to this endpoint._
+
+5. **Generate presigned URL for a standard single upload**
+
+   - **Endpoint**: `GET /upload/single-put`
+   - Retrieves a time-limited, scoped, write-only presigned URL for object upload.
+   - _Note: Supported file types: DICOM, ZIP._
+   - _Note: ZIP files must contain either a complete DICOM study or a .nii/.nii.gz w/ corresponding .bvec and .bval files._
+   - _Note: Only use this endpoint for small individual uplaods (&lt;5MB). Use multipart upload for any file size exceeding this threshold._
+
+6. **Inititate a multipart upload**
+
+   - **Endpoint**: `POST /upload/multipart/initiate`
+   - Initiates a multipart upload. Returns parameters to be used in later requests associated with this upload.
+
+7. **Get presigned URLs for a multipart upload**
+
+   - **Endpoint**: `POST /upload/multipart/presigned-urls`
+   - Returns a list of presigned URLs to be used for each upload chunk.
+   - _Note: Max chunk count: 100_
+
+8. **Complete multipart upload**
+
+   - **Endpoint**: `POST /upload/multipart/complete`
+   - Completes a multipart upload. Initiates image processing.
+
+9. **Abort multipart upload**
+
+   - **Endpoint**: `POST /upload/multipart/abort`
+   - Aborts a multipart upload. Cancels image processing.
+
+10. **Upload w/ presigned URL**
+
+    - **Endpoint**: `PUT <presigned_url>`
+    - Uploads a single chunk to our encrypted cloud data lake.
+    - _Note: This endpoint does not require an authorization header._
+
+11. **Add metadata to order**
+
+    - **Endpoint**: `PATCH /add-metadata?order_id={orderID}`
+    - **Endpoint**: `PATCH /add-metadata?study_uid={studyInstanceUID}`
+    - Add JSON-formatted metadata to an active order.
+    - _Note: Include the necessary metadata in DICOM tags or use this endpoint._
+
+12. **Get metadata for order**
+
+    - **Endpoint**: `GET /metadata`
+    - All metadata associated with an individual order.
+
+13. **Associate order to batch**
+
+    - **Endpoint**: `PATCH /associate-order-to-batch`
+    - Associated an individual order with a batch/group for tracking and aggregated reporting.
+    - _Note: All individual orders in a group must be run with the same products. Discrepancies will cause the association to fail._
+
+14. **Order status check**
+
+    - **Endpoint**: `GET /status?order_id={orderID}`
+    - **Endpoint**: `GET /status?study_uid={studyInstanceUID}`
+    - Retrieves the current processing status for the specified study UID/order ID.
+    - _Note: If multiple orders correspond to a study UID, only the most recent is returned._
+
+15. **List orders**
+
+    - **Endpoint**: `GET /list-orders`
+    - Retrieves all active orders associated with your profile. Includes information such as timestamps, status, associations, etc.
+    - _Note: The information returned from this endpoint depends on the access level of the profile making the request. Basic users can only see orders associated with their account, whereas organization admins can see orders of all users associated with their organization._
+
+16. **Cancel order**
+
+    - **Endpoint**: `PATCH /cancel-order`
+    - Cancels an order and suspends all processing.
+    - _Note: This action cannot be undone._
+
+17. **Single-study result retrieval**
+
+    - **Endpoint**: `GET /results?order_id={orderID}&report_type={reportType}`
+    - **Endpoint**: `GET /results?study_uid={studyInstanceUID}&report_type={reportType}`
+    - Returns the desired report associated with the specified study UID/order ID.
+    - _Note: If multiple orders correspond to a study UID, only the most recent is returned._
+
+18. **Single-study failure report retrieval**
+
+    - **Endpoint**: `GET /failure-report?order_id={orderID}&report_type={reportType}`
+    - **Endpoint**: `GET /failure-report?study_uid={studyInstanceUID}&report_type={reportType}`
+    - Returns the desired failure report associated with the specified study UID/order ID.
+    - _Note: If multiple orders correspond to a study UID, only the most recent is returned._
+
+19. **Group-study report retrieval**
+
+    - **Endpoint**: `GET /report?study_group={studyGroup}&report_type={reportType}`
+    - Returns the desired report associated with the specified study group.
+
+## Tips
+
+- View our Swagger page for more details on API endpoints.
+
+## Security and Compliance
+
+- OAuth2 token authentication
+- Presigned URLs expire to limit exposure.
+- Role-based IAM policies enforce least privilege for URL generation and storage access.
+- All data in transit and at rest is encrypted using AWS-managed keys.
+- Detailed audit logs capture URL issuance and upload events for compliance monitoring.
+
+---
+
+_Last updated: February 11, 2026_

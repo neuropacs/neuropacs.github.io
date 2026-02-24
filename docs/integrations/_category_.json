@@ -1,0 +1,9 @@
+{
+  "label": "Integrations",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Integration methods for ingesting studies and delivering results.",
+    "slug": "/integrations"
+  }
+}

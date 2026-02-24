@@ -1,0 +1,9 @@
+{
+  "label": "Security & Compliance",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Security practices, regulatory frameworks, and compliance documentation.",
+    "slug": "/security"
+  }
+}
