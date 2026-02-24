@@ -1,22 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>neuropacs™ Integration Guide Blog</title>
-        <link>https://neuropacs.com/neuropacs-docs/blog</link>
-        <description>neuropacs™ Integration Guide Blog</description>
-        <lastBuildDate>Tue, 20 May 2025 00:00:00 GMT</lastBuildDate>
+        <title>Neuropacs™ Documentation Blog</title>
+        <link>https://neuropacs.github.io/blog</link>
+        <description>Neuropacs™ Documentation Blog</description>
+        <lastBuildDate>Thu, 12 Feb 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
+            <title><![CDATA[Neuropacs Agent v1.0.0 Release Now Available]]></title>
+            <link>https://neuropacs.github.io/blog/agent-release</link>
+            <guid>https://neuropacs.github.io/blog/agent-release</guid>
+            <pubDate>Thu, 12 Feb 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[We have now released v1.0.0 of our Neuropacs Agent.]]></description>
+            <content:encoded><![CDATA[<p>We have now released v1.0.0 of our Neuropacs Agent.</p>
+<p>The Neuropacs Agent is an on-premises software solution designed to operate within your data center, seamlessly integrating with your existing infrastructure while securely interfacing with the Neuropacs Cloud. It establishes an encrypted connection to transmit medical imaging for analysis, manage orders, retrieve reports, and automatically route them to designated destinations.</p>
+<p>The Agent also supports fully on-premises workflows to provide an additional layer of data protection and control. With local quality control and preprocessing performed entirely within your internal network, sensitive data remains on site at all times—never leaving your environment.</p>
+<p>Read more about the Neuropacs Agent <a class="" href="https://neuropacs.github.io/docs/integrations/agent-application">here</a>.</p>]]></content:encoded>
+            <category>agent</category>
+        </item>
+        <item>
+            <title><![CDATA[SOC-2 Type II Progress Update - Complete!]]></title>
+            <link>https://neuropacs.github.io/blog/soc-2-update-02</link>
+            <guid>https://neuropacs.github.io/blog/soc-2-update-02</guid>
+            <pubDate>Thu, 12 Feb 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Our official SOC 2 Type II audit has successfully concluded. After months of dedicated effort, we have achieved SOC 2 Type II compliance! This milestone reinforces our commitment to security, reliability, and operational excellence, and positions us to serve as a trusted, high-quality partner to organizations operating in demanding and regulated environments.]]></description>
+            <content:encoded><![CDATA[<p>Our official SOC 2 Type II audit has successfully concluded. After months of dedicated effort, we have achieved SOC 2 Type II compliance! This milestone reinforces our commitment to security, reliability, and operational excellence, and positions us to serve as a trusted, high-quality partner to organizations operating in demanding and regulated environments.</p>
+<p>Our official SOC 2 Type II compliance report can be provided upon request. The audit has been performed by a 3rd party organization.</p>
+<p>Read more about SOC-2 Type II here: <a href="https://www.imperva.com/learn/data-security/soc-2-compliance/" target="_blank" rel="noopener noreferrer" class="">https://www.imperva.com/learn/data-security/soc-2-compliance/</a></p>]]></content:encoded>
+            <category>soc-2</category>
+        </item>
+        <item>
+            <title><![CDATA[SOC-2 Type II Progress Update]]></title>
+            <link>https://neuropacs.github.io/blog/soc-2-update-01</link>
+            <guid>https://neuropacs.github.io/blog/soc-2-update-01</guid>
+            <pubDate>Fri, 06 Feb 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Our official SOC-2 Type II audit is in progress as of 2/2! With a SOC-2 Type II certificate, we provide assurance to our partners that we are capable of handling sensitive information, operate like a mature business, and comply with the strictest of security standards & frameworks.]]></description>
+            <content:encoded><![CDATA[<p>Our official SOC-2 Type II audit is in progress as of 2/2! With a SOC-2 Type II certificate, we provide assurance to our partners that we are capable of handling sensitive information, operate like a mature business, and comply with the strictest of security standards &amp; frameworks.</p>
+<p>The audit is being performed by a 3rd party organization.</p>
+<p>Read more about SOC-2 Type II here: <a href="https://www.imperva.com/learn/data-security/soc-2-compliance/" target="_blank" rel="noopener noreferrer" class="">https://www.imperva.com/learn/data-security/soc-2-compliance/</a></p>]]></content:encoded>
+            <category>soc-2</category>
+        </item>
+        <item>
+            <title><![CDATA[New Products Available]]></title>
+            <link>https://neuropacs.github.io/blog/agent-prods-update-01</link>
+            <guid>https://neuropacs.github.io/blog/agent-prods-update-01</guid>
+            <pubDate>Tue, 30 Dec 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Our platform now supports the following products:]]></description>
+            <content:encoded><![CDATA[<p>Our platform now supports the following products:</p>
+<ul>
+<li class="">AIDP-Clinical - Automated Imaging Differentiation for Parkinsonism (clinical-use)</li>
+<li class="">AIDP - Automated Imaging Differentiation for Parkinsonism</li>
+<li class="">AIDD - Automated Imaging Differentiation for Dementia</li>
+<li class="">AIND-PD - Automated Index of NeuroDegeneration - Parkinson's Disease</li>
+<li class="">AIND-AD - Automated Index of NeuroDegeneration - Alzheimer's Disease</li>
+</ul>
+<p>Ensure your organization has access to new products before submitting an order! For more information, visit our website or contact support at <a href="mailto:support@neuropacs.com" target="_blank" rel="noopener noreferrer" class="">support@neuropacs.com</a>.</p>
+<p>Read more about our product line on our official website: <a href="https://neuropacs.com/" target="_blank" rel="noopener noreferrer" class="">https://neuropacs.com/</a></p>]]></content:encoded>
+            <category>agent</category>
+            <category>new-product</category>
+        </item>
+        <item>
+            <title><![CDATA[Web Portal Now Available!]]></title>
+            <link>https://neuropacs.github.io/blog/web-portal-release</link>
+            <guid>https://neuropacs.github.io/blog/web-portal-release</guid>
+            <pubDate>Wed, 16 Jul 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[We’re excited to introduce our secure web portal, designed to streamline your imaging workflows with a dynamic, user-friendly interface. Whether you're a clinician, researcher, or operations lead, the portal provides everything you need to securely upload imaging, manage studies, and retrive analysis reports.]]></description>
+            <content:encoded><![CDATA[<p>We’re excited to introduce our secure web portal, designed to streamline your imaging workflows with a dynamic, user-friendly interface. Whether you're a clinician, researcher, or operations lead, the portal provides everything you need to securely upload imaging, manage studies, and retrive analysis reports.</p>
+<p>Built for efficiency and peace of mind, the portal supports both manual uploads and automated integration with your existing infrastructure.</p>
+<p>Login now and experience a more intuitive, secure way to manage your orders and diagnostic reports.</p>]]></content:encoded>
+            <category>web-portal</category>
+            <category>new-feature</category>
+        </item>
+        <item>
             <title><![CDATA[Welcome!]]></title>
-            <link>https://neuropacs.com/neuropacs-docs/blog/welcome-post</link>
-            <guid>https://neuropacs.com/neuropacs-docs/blog/welcome-post</guid>
+            <link>https://neuropacs.github.io/blog/welcome-post</link>
+            <guid>https://neuropacs.github.io/blog/welcome-post</guid>
             <pubDate>Tue, 20 May 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Welcome to the new neuropacs documentation site! Here you will find information on our full-suite of integration options, available products, imaging input specifications, security information, and more.]]></description>
-            <content:encoded><![CDATA[<p>Welcome to the new neuropacs documentation site! Here you will find information on our full-suite of integration options, available products, imaging input specifications, security information, and more.</p>
-<p>This site will frequently be updated to inform our users of the latest changes to the neuropacs ecosystem (e.g., deprecations/EOL, new products, service updates). Check back regularly to ensure you have the latest information.</p>]]></content:encoded>
-            <category>Welcome</category>
+            <description><![CDATA[Welcome to the new Neuropacs documentation site! Here you will find information on our full-suite of integration options, available products, imaging input specifications, security information, and more.]]></description>
+            <content:encoded><![CDATA[<p>Welcome to the new Neuropacs documentation site! Here you will find information on our full-suite of integration options, available products, imaging input specifications, security information, and more.</p>
+<p>This site will frequently be updated to inform our users of the latest changes to the Neuropacs ecosystem (e.g., deprecations/EOL, new products, service updates). Check back regularly to ensure you have the latest information.</p>]]></content:encoded>
+            <category>welcome</category>
         </item>
     </channel>
 </rss>

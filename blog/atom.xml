@@ -1,24 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://neuropacs.com/neuropacs-docs/blog</id>
-    <title>neuropacs™ Integration Guide Blog</title>
-    <updated>2025-05-20T00:00:00.000Z</updated>
+    <id>https://neuropacs.github.io/blog</id>
+    <title>Neuropacs™ Documentation Blog</title>
+    <updated>2026-02-12T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://neuropacs.com/neuropacs-docs/blog"/>
-    <subtitle>neuropacs™ Integration Guide Blog</subtitle>
-    <icon>https://neuropacs.com/neuropacs-docs/img/favicon.ico</icon>
+    <link rel="alternate" href="https://neuropacs.github.io/blog"/>
+    <subtitle>Neuropacs™ Documentation Blog</subtitle>
+    <icon>https://neuropacs.github.io/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Welcome!]]></title>
-        <id>https://neuropacs.com/neuropacs-docs/blog/welcome-post</id>
-        <link href="https://neuropacs.com/neuropacs-docs/blog/welcome-post"/>
-        <updated>2025-05-20T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Welcome to the new neuropacs documentation site! Here you will find information on our full-suite of integration options, available products, imaging input specifications, security information, and more.]]></summary>
-        <content type="html"><![CDATA[<p>Welcome to the new neuropacs documentation site! Here you will find information on our full-suite of integration options, available products, imaging input specifications, security information, and more.</p>
-<p>This site will frequently be updated to inform our users of the latest changes to the neuropacs ecosystem (e.g., deprecations/EOL, new products, service updates). Check back regularly to ensure you have the latest information.</p>]]></content>
+        <title type="html"><![CDATA[Neuropacs Agent v1.0.0 Release Now Available]]></title>
+        <id>https://neuropacs.github.io/blog/agent-release</id>
+        <link href="https://neuropacs.github.io/blog/agent-release"/>
+        <updated>2026-02-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We have now released v1.0.0 of our Neuropacs Agent.]]></summary>
+        <content type="html"><![CDATA[<p>We have now released v1.0.0 of our Neuropacs Agent.</p>
+<p>The Neuropacs Agent is an on-premises software solution designed to operate within your data center, seamlessly integrating with your existing infrastructure while securely interfacing with the Neuropacs Cloud. It establishes an encrypted connection to transmit medical imaging for analysis, manage orders, retrieve reports, and automatically route them to designated destinations.</p>
+<p>The Agent also supports fully on-premises workflows to provide an additional layer of data protection and control. With local quality control and preprocessing performed entirely within your internal network, sensitive data remains on site at all times—never leaving your environment.</p>
+<p>Read more about the Neuropacs Agent <a class="" href="https://neuropacs.github.io/docs/integrations/agent-application">here</a>.</p>]]></content>
         <author>
             <name>Kerrick Cavanaugh</name>
             <uri>https://www.linkedin.com/in/kerrick-cavanaugh/</uri>
         </author>
-        <category label="Welcome" term="Welcome"/>
+        <category label="agent" term="agent"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SOC-2 Type II Progress Update - Complete!]]></title>
+        <id>https://neuropacs.github.io/blog/soc-2-update-02</id>
+        <link href="https://neuropacs.github.io/blog/soc-2-update-02"/>
+        <updated>2026-02-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Our official SOC 2 Type II audit has successfully concluded. After months of dedicated effort, we have achieved SOC 2 Type II compliance! This milestone reinforces our commitment to security, reliability, and operational excellence, and positions us to serve as a trusted, high-quality partner to organizations operating in demanding and regulated environments.]]></summary>
+        <content type="html"><![CDATA[<p>Our official SOC 2 Type II audit has successfully concluded. After months of dedicated effort, we have achieved SOC 2 Type II compliance! This milestone reinforces our commitment to security, reliability, and operational excellence, and positions us to serve as a trusted, high-quality partner to organizations operating in demanding and regulated environments.</p>
+<p>Our official SOC 2 Type II compliance report can be provided upon request. The audit has been performed by a 3rd party organization.</p>
+<p>Read more about SOC-2 Type II here: <a href="https://www.imperva.com/learn/data-security/soc-2-compliance/" target="_blank" rel="noopener noreferrer" class="">https://www.imperva.com/learn/data-security/soc-2-compliance/</a></p>]]></content>
+        <author>
+            <name>Kerrick Cavanaugh</name>
+            <uri>https://www.linkedin.com/in/kerrick-cavanaugh/</uri>
+        </author>
+        <category label="soc-2" term="soc-2"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SOC-2 Type II Progress Update]]></title>
+        <id>https://neuropacs.github.io/blog/soc-2-update-01</id>
+        <link href="https://neuropacs.github.io/blog/soc-2-update-01"/>
+        <updated>2026-02-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Our official SOC-2 Type II audit is in progress as of 2/2! With a SOC-2 Type II certificate, we provide assurance to our partners that we are capable of handling sensitive information, operate like a mature business, and comply with the strictest of security standards & frameworks.]]></summary>
+        <content type="html"><![CDATA[<p>Our official SOC-2 Type II audit is in progress as of 2/2! With a SOC-2 Type II certificate, we provide assurance to our partners that we are capable of handling sensitive information, operate like a mature business, and comply with the strictest of security standards &amp; frameworks.</p>
+<p>The audit is being performed by a 3rd party organization.</p>
+<p>Read more about SOC-2 Type II here: <a href="https://www.imperva.com/learn/data-security/soc-2-compliance/" target="_blank" rel="noopener noreferrer" class="">https://www.imperva.com/learn/data-security/soc-2-compliance/</a></p>]]></content>
+        <author>
+            <name>Kerrick Cavanaugh</name>
+            <uri>https://www.linkedin.com/in/kerrick-cavanaugh/</uri>
+        </author>
+        <category label="soc-2" term="soc-2"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Products Available]]></title>
+        <id>https://neuropacs.github.io/blog/agent-prods-update-01</id>
+        <link href="https://neuropacs.github.io/blog/agent-prods-update-01"/>
+        <updated>2025-12-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Our platform now supports the following products:]]></summary>
+        <content type="html"><![CDATA[<p>Our platform now supports the following products:</p>
+<ul>
+<li class="">AIDP-Clinical - Automated Imaging Differentiation for Parkinsonism (clinical-use)</li>
+<li class="">AIDP - Automated Imaging Differentiation for Parkinsonism</li>
+<li class="">AIDD - Automated Imaging Differentiation for Dementia</li>
+<li class="">AIND-PD - Automated Index of NeuroDegeneration - Parkinson's Disease</li>
+<li class="">AIND-AD - Automated Index of NeuroDegeneration - Alzheimer's Disease</li>
+</ul>
+<p>Ensure your organization has access to new products before submitting an order! For more information, visit our website or contact support at <a href="mailto:support@neuropacs.com" target="_blank" rel="noopener noreferrer" class="">support@neuropacs.com</a>.</p>
+<p>Read more about our product line on our official website: <a href="https://neuropacs.com/" target="_blank" rel="noopener noreferrer" class="">https://neuropacs.com/</a></p>]]></content>
+        <author>
+            <name>Kerrick Cavanaugh</name>
+            <uri>https://www.linkedin.com/in/kerrick-cavanaugh/</uri>
+        </author>
+        <category label="agent" term="agent"/>
+        <category label="new-product" term="new-product"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Web Portal Now Available!]]></title>
+        <id>https://neuropacs.github.io/blog/web-portal-release</id>
+        <link href="https://neuropacs.github.io/blog/web-portal-release"/>
+        <updated>2025-07-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re excited to introduce our secure web portal, designed to streamline your imaging workflows with a dynamic, user-friendly interface. Whether you're a clinician, researcher, or operations lead, the portal provides everything you need to securely upload imaging, manage studies, and retrive analysis reports.]]></summary>
+        <content type="html"><![CDATA[<p>We’re excited to introduce our secure web portal, designed to streamline your imaging workflows with a dynamic, user-friendly interface. Whether you're a clinician, researcher, or operations lead, the portal provides everything you need to securely upload imaging, manage studies, and retrive analysis reports.</p>
+<p>Built for efficiency and peace of mind, the portal supports both manual uploads and automated integration with your existing infrastructure.</p>
+<p>Login now and experience a more intuitive, secure way to manage your orders and diagnostic reports.</p>]]></content>
+        <author>
+            <name>Kerrick Cavanaugh</name>
+            <uri>https://www.linkedin.com/in/kerrick-cavanaugh/</uri>
+        </author>
+        <category label="web-portal" term="web-portal"/>
+        <category label="new-feature" term="new-feature"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Welcome!]]></title>
+        <id>https://neuropacs.github.io/blog/welcome-post</id>
+        <link href="https://neuropacs.github.io/blog/welcome-post"/>
+        <updated>2025-05-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to the new Neuropacs documentation site! Here you will find information on our full-suite of integration options, available products, imaging input specifications, security information, and more.]]></summary>
+        <content type="html"><![CDATA[<p>Welcome to the new Neuropacs documentation site! Here you will find information on our full-suite of integration options, available products, imaging input specifications, security information, and more.</p>
+<p>This site will frequently be updated to inform our users of the latest changes to the Neuropacs ecosystem (e.g., deprecations/EOL, new products, service updates). Check back regularly to ensure you have the latest information.</p>]]></content>
+        <author>
+            <name>Kerrick Cavanaugh</name>
+            <uri>https://www.linkedin.com/in/kerrick-cavanaugh/</uri>
+        </author>
+        <category label="welcome" term="welcome"/>
     </entry>
 </feed>
