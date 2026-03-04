@@ -4,10 +4,25 @@
         <title>Neuropacs™ Documentation Blog</title>
         <link>https://neuropacs.github.io/blog</link>
         <description>Neuropacs™ Documentation Blog</description>
-        <lastBuildDate>Thu, 12 Feb 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 04 Mar 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Nueropacs Attending eMerge Americas 2026]]></title>
+            <link>https://neuropacs.github.io/blog/emerge-americas-2026</link>
+            <guid>https://neuropacs.github.io/blog/emerge-americas-2026</guid>
+            <pubDate>Wed, 04 Mar 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Neuropacs will be attending eMerge Americas 2026, this April 22-24 in Miami!]]></description>
+            <content:encoded><![CDATA[<p>Neuropacs will be attending eMerge Americas 2026, this April 22-24 in Miami!</p>
+<p>eMerge Americas is a catalyst, an accelerator, and a global tech conference + expo driving innovative advancements in AI, National Security, Health, and Finance.</p>
+<p>The eMerge experience is powered by people on the front lines of innovation. From C-suite leaders and startup founders to policymakers, the community represents every corner of the tech ecosystem. Whether you’re attending to invest, scale, partner, or learn, this is where unexpected collisions turn into lasting connections.</p>
+<p>If you are attending, we'd love to connect. Find us on LinkedIn or connect with our team (<a href="mailto:kerrick@neuropacs.com" target="_blank" rel="noopener noreferrer" class="">kerrick@neuropacs.com</a>) to find a time to meet up in-person!</p>
+<p>Read more about eMerge Americas 2026 here: <a href="https://emergeamericas.com/" target="_blank" rel="noopener noreferrer" class="">https://emergeamericas.com/</a></p>]]></content:encoded>
+            <category>emerge</category>
+            <category>conference</category>
+            <category>networking</category>
+        </item>
         <item>
             <title><![CDATA[Neuropacs Agent v1.0.0 Release Now Available]]></title>
             <link>https://neuropacs.github.io/blog/agent-release</link>

@@ -2,11 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://neuropacs.github.io/blog</id>
     <title>Neuropacs™ Documentation Blog</title>
-    <updated>2026-02-12T00:00:00.000Z</updated>
+    <updated>2026-03-04T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://neuropacs.github.io/blog"/>
     <subtitle>Neuropacs™ Documentation Blog</subtitle>
     <icon>https://neuropacs.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Nueropacs Attending eMerge Americas 2026]]></title>
+        <id>https://neuropacs.github.io/blog/emerge-americas-2026</id>
+        <link href="https://neuropacs.github.io/blog/emerge-americas-2026"/>
+        <updated>2026-03-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Neuropacs will be attending eMerge Americas 2026, this April 22-24 in Miami!]]></summary>
+        <content type="html"><![CDATA[<p>Neuropacs will be attending eMerge Americas 2026, this April 22-24 in Miami!</p>
+<p>eMerge Americas is a catalyst, an accelerator, and a global tech conference + expo driving innovative advancements in AI, National Security, Health, and Finance.</p>
+<p>The eMerge experience is powered by people on the front lines of innovation. From C-suite leaders and startup founders to policymakers, the community represents every corner of the tech ecosystem. Whether you’re attending to invest, scale, partner, or learn, this is where unexpected collisions turn into lasting connections.</p>
+<p>If you are attending, we'd love to connect. Find us on LinkedIn or connect with our team (<a href="mailto:kerrick@neuropacs.com" target="_blank" rel="noopener noreferrer" class="">kerrick@neuropacs.com</a>) to find a time to meet up in-person!</p>
+<p>Read more about eMerge Americas 2026 here: <a href="https://emergeamericas.com/" target="_blank" rel="noopener noreferrer" class="">https://emergeamericas.com/</a></p>]]></content>
+        <author>
+            <name>Kerrick Cavanaugh</name>
+            <uri>https://www.linkedin.com/in/kerrick-cavanaugh/</uri>
+        </author>
+        <category label="emerge" term="emerge"/>
+        <category label="conference" term="conference"/>
+        <category label="networking" term="networking"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Neuropacs Agent v1.0.0 Release Now Available]]></title>
         <id>https://neuropacs.github.io/blog/agent-release</id>
