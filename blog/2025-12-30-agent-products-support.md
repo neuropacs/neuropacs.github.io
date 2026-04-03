@@ -7,7 +7,6 @@ tags: [agent, new-product]
 
 Our platform now supports the following products:
 
-- AIDP-Clinical - Automated Imaging Differentiation for Parkinsonism (clinical-use)
 - AIDP - Automated Imaging Differentiation for Parkinsonism
 - AIDD - Automated Imaging Differentiation for Dementia
 - AIND-PD - Automated Index of NeuroDegeneration - Parkinson's Disease
