@@ -4,10 +4,25 @@
         <title>Neuropacs™ Documentation Blog</title>
         <link>https://neuropacs.github.io/blog</link>
         <description>Neuropacs™ Documentation Blog</description>
-        <lastBuildDate>Wed, 04 Mar 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 03 Apr 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Windows Support for the Neuropacs Agent]]></title>
+            <link>https://neuropacs.github.io/blog/windows-support</link>
+            <guid>https://neuropacs.github.io/blog/windows-support</guid>
+            <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Neuropacs Agent is now fully supported in Windows environments through virtualization.]]></description>
+            <content:encoded><![CDATA[<p>The Neuropacs Agent is now fully supported in Windows environments through virtualization.</p>
+<p>Customers can deploy the Agent on Windows systems using VMware or Hyper-V, enabling integration into Windows-based infrastructure while maintaining the consistency of a Linux-based runtime. Portable and customizable virtual machine deployments make it easier to support a wide range of operational environments across healthcare and research settings.</p>
+<p>For many hospitals, imaging centers, and research teams, Windows remains a central part of the local IT environment. In those settings, introducing a new platform often depends not only on performance and functionality, but also on how easily it can be integrated into the systems administrators already manage. By supporting deployment through portable and configurable virtual machine files, the Neuropacs Agent can be introduced in a way that aligns more naturally with existing infrastructure, internal policies, and deployment workflows.</p>
+<p>This update is part of a broader effort to make the Neuropacs Agent easier to adopt across a wide range of technical environments. We recognize that deployment flexibility is a critical part of real-world adoption, especially in healthcare and research settings where infrastructure standards, procurement requirements, and security expectations can vary significantly from one organization to another. Expanding support for Windows-based deployment is an important step toward meeting customers where they are and making advanced imaging diagnostics more accessible in practice.</p>
+<p>Updated documentation, including deployment guidance and environment details, is available here:
+<a href="https://neuropacs.github.io/docs/integrations/agent-application" target="_blank" rel="noopener noreferrer" class="">https://neuropacs.github.io/docs/integrations/agent-application</a></p>]]></content:encoded>
+            <category>windows</category>
+            <category>integration</category>
+        </item>
         <item>
             <title><![CDATA[Attending eMerge Americas 2026]]></title>
             <link>https://neuropacs.github.io/blog/emerge-americas-2026</link>
@@ -65,7 +80,6 @@
             <description><![CDATA[Our platform now supports the following products:]]></description>
             <content:encoded><![CDATA[<p>Our platform now supports the following products:</p>
 <ul>
-<li class="">AIDP-Clinical - Automated Imaging Differentiation for Parkinsonism (clinical-use)</li>
 <li class="">AIDP - Automated Imaging Differentiation for Parkinsonism</li>
 <li class="">AIDD - Automated Imaging Differentiation for Dementia</li>
 <li class="">AIND-PD - Automated Index of NeuroDegeneration - Parkinson's Disease</li>
