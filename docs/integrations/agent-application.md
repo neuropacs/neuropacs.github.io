@@ -27,6 +27,25 @@ The Agent also supports fully on-premises workflows to provide an additional lay
 
 ## Tips & Best Practices
 
+### Supported Environments
+
+#### Supported Operating Systems
+
+- Native Linux Hosts (Ubuntu 22.04+ recommended) - Modern Linux distributions with support for Docker Engine and Docker Compose
+- Windows hosts - Windows 10/11 Pro, Enterprise, Education, and Server with Hyper-V/VMware virtualization capabilities
+- macOS hosts - Modern macOS versions with Docker Desktop or VMware Fusion
+
+#### Supported Virtualization Platforms
+
+- VMware (VMware Workstation, VMware Fusion, VMware vSphere)
+- HyperV
+
+#### Supported Cloud Deployments
+
+- Amazon Web Services (AWS)
+- Microsoft Azure
+- Google Cloud Platform (GCP)
+
 ### Optimal Performance
 
 - Configure routing rules to send only relevant studies
