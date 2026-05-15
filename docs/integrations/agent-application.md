@@ -23,7 +23,7 @@ The Agent also supports fully on-premises workflows to provide an additional lay
 
 ### Usage Guide (PDF)
 
-[Download the Neuropacs Agent Usage Guide](https://d13kmmwctlljvu.cloudfront.net/agent/docs/neuropacs_agent_usage_guide_v1.0.5.pdf)
+[Download the Neuropacs Agent Usage Guide](https://d13kmmwctlljvu.cloudfront.net/agent/docs/neuropacs_agent_usage_guide_v1.0.7.pdf)
 
 ## Tips & Best Practices
 
