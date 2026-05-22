@@ -23,9 +23,28 @@ The Agent also supports fully on-premises workflows to provide an additional lay
 
 ### Usage Guide (PDF)
 
-[Download the Neuropacs Agent Usage Guide](https://d13kmmwctlljvu.cloudfront.net/agent/docs/neuropacs_agent_usage_guide_v1.0.0.pdf)
+[Download the Neuropacs Agent Usage Guide](https://d13kmmwctlljvu.cloudfront.net/agent/docs/neuropacs_agent_usage_guide_v1.0.7.pdf)
 
 ## Tips & Best Practices
+
+### Supported Environments
+
+#### Supported Operating Systems
+
+- Native Linux Hosts (Ubuntu 22.04+ recommended) - Modern Linux distributions with support for Docker Engine and Docker Compose
+- Windows Hosts - Windows 10/11 Pro, Enterprise, Education, and Server with Hyper-V/VMware virtualization capabilities
+- macOS Hosts - Modern macOS versions with Docker Desktop or VMware Fusion
+
+#### Supported Virtualization Platforms
+
+- VMware (VMware Workstation, VMware Fusion, VMware vSphere)
+- Hyper-V
+
+#### Supported Cloud Deployments
+
+- Amazon Web Services (AWS)
+- Microsoft Azure
+- Google Cloud Platform (GCP)
 
 ### Optimal Performance
 
@@ -49,4 +68,4 @@ The Agent also supports fully on-premises workflows to provide an additional lay
 
 ---
 
-_Last updated: February 12, 2026_
+_Last updated: May 22, 2026_

@@ -29,7 +29,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "neuropacs", // Usually your GitHub org/user name.
-  projectName: "neuropacs-docs", // Usually your repo name.
+  projectName: "neuropacs.github.io", // Usually your repo name.
   deploymentBranch: "gh-pages",
 
   onBrokenLinks: "ignore",
