@@ -16,4 +16,4 @@ For many hospitals, imaging centers, and research teams, Windows remains a centr
 This update is part of a broader effort to make the Neuropacs Agent easier to adopt across a wide range of technical environments. We recognize that deployment flexibility is a critical part of real-world adoption, especially in healthcare and research settings where infrastructure standards, procurement requirements, and security expectations can vary significantly from one organization to another. Expanding support for Windows-based deployment is an important step toward meeting customers where they are and making advanced imaging diagnostics more accessible in practice.
 
 Updated documentation, including deployment guidance and environment details, is available here:
-https://neuropacs.github.io/docs/integrations/agent-application
+[Agent application documentation](/docs/integrations/agent-application)
