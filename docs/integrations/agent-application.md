@@ -38,7 +38,7 @@ The Agent also supports fully on-premises workflows to provide an additional lay
 #### Supported Virtualization Platforms
 
 - VMware (VMware Workstation, VMware Fusion, VMware vSphere)
-- HyperV
+- Hyper-V
 
 #### Supported Cloud Deployments
 
