@@ -32,8 +32,8 @@ The Agent also supports fully on-premises workflows to provide an additional lay
 #### Supported Operating Systems
 
 - Native Linux Hosts (Ubuntu 22.04+ recommended) - Modern Linux distributions with support for Docker Engine and Docker Compose
-- Windows hosts - Windows 10/11 Pro, Enterprise, Education, and Server with Hyper-V/VMware virtualization capabilities
-- macOS hosts - Modern macOS versions with Docker Desktop or VMware Fusion
+- Windows Hosts - Windows 10/11 Pro, Enterprise, Education, and Server with Hyper-V/VMware virtualization capabilities
+- macOS Hosts - Modern macOS versions with Docker Desktop or VMware Fusion
 
 #### Supported Virtualization Platforms
 
