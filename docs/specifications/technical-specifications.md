@@ -19,7 +19,7 @@ Whole-brain diffusion MRI obtained with a single-shot spin echo EPI sequence sen
 | ------------------------ | ------------ |
 | Field strength, T        | 3            |
 | Repetition time (TR), ms | 6000 – 17000 |
-| Echo time (TE), ms       | 55 – 100     |
+| Echo time (TE), ms       | 55 – 104     |
 | In-plane resolution, mm² | 1.85 – 2.15  |
 | Slice thickness, mm      | 2            |
 | Slices, n                | 64 – 86      |
