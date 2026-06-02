@@ -14,6 +14,6 @@ Our platform now supports the following products:
 
 Ensure your organization has access to new products before submitting an order! For more information, visit our website or contact support at support@neuropacs.com.
 
-<!-- truncate -->
+{/* truncate */}
 
 Read more about our product line on our official website: https://neuropacs.com/

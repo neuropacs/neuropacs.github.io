@@ -7,6 +7,6 @@ tags: [welcome]
 
 Welcome to the new Neuropacs documentation site! Here you will find information on our full-suite of integration options, available products, imaging input specifications, security information, and more.
 
-<!-- truncate -->
+{/* truncate */}
 
 This site will frequently be updated to inform our users of the latest changes to the Neuropacs ecosystem (e.g., deprecations/EOL, new products, service updates). Check back regularly to ensure you have the latest information.

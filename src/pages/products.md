@@ -9,7 +9,7 @@ title: Products
 
 ---
 
-<!-- ## Automated Imaging Differentiation for Parkinsonism - Clinical-use
+{/* ## Automated Imaging Differentiation for Parkinsonism - Clinical-use
 
 **Product ID:**
 AIDP-Clinical
@@ -24,7 +24,7 @@ The most accurate and validated AI technology currently available on the market 
 
 **More Details:** https://neuropacs.com/aidp/
 
---- -->
+--- */}
 
 ## Automated Imaging Differentiation for Parkinsonism
 

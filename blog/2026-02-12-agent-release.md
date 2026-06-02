@@ -11,6 +11,6 @@ The Neuropacs Agent is an on-premises software solution designed to operate with
 
 The Agent also supports fully on-premises workflows to provide an additional layer of data protection and control. With local quality control and preprocessing performed entirely within your internal network, sensitive data remains on site at all times—never leaving your environment.
 
-<!-- truncate -->
+{/* truncate */}
 
 Read more about the Neuropacs Agent [here](/docs/integrations/agent-application).

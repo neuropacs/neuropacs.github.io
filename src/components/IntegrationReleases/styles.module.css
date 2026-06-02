@@ -1,0 +1,131 @@
+.releaseList {
+  display: grid;
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+}
+
+.releaseCard {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  background: var(--ifm-background-surface-color);
+}
+
+.releaseToggle {
+  display: block;
+  position: relative;
+  padding: 1rem 2.75rem 1rem 1rem;
+  cursor: pointer;
+  list-style: none;
+}
+
+.releaseToggle::-webkit-details-marker {
+  display: none;
+}
+
+.releaseToggle::after {
+  content: "";
+  position: absolute;
+  top: 1.25rem;
+  right: 1rem;
+  width: 0.55rem;
+  height: 0.55rem;
+  border-right: 2px solid var(--ifm-color-emphasis-700);
+  border-bottom: 2px solid var(--ifm-color-emphasis-700);
+  transform: rotate(45deg);
+  transition: transform 150ms ease;
+}
+
+.releaseCard[open] .releaseToggle {
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.releaseCard[open] .releaseToggle::after {
+  transform: translateY(0.2rem) rotate(225deg);
+}
+
+.releaseToggle:focus-visible {
+  outline: 2px solid var(--ifm-color-primary);
+  outline-offset: 3px;
+}
+
+.releaseHeader {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.releaseTitle {
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.35;
+}
+
+.releaseMeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.6rem;
+  margin-top: 0.25rem;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.875rem;
+}
+
+.releaseVersion {
+  font-weight: 700;
+}
+
+.releaseTags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.35rem;
+  min-width: 8rem;
+}
+
+.releaseTag {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 999px;
+  padding: 0.1rem 0.45rem;
+  color: var(--ifm-color-emphasis-800);
+  font-size: 0.75rem;
+  line-height: 1.4;
+  background: var(--ifm-color-emphasis-100);
+}
+
+.releaseSummary {
+  margin: 0.75rem 0 0;
+  color: var(--ifm-color-emphasis-800);
+}
+
+.releaseBody {
+  padding: 0.9rem 1rem 1rem;
+}
+
+.releaseBody > :last-child,
+.releaseBody li:last-child > :last-child {
+  margin-bottom: 0;
+}
+
+.releaseEmptyState {
+  margin: 1rem 0 2rem;
+  border-left: 4px solid var(--ifm-color-primary);
+  border-radius: 8px;
+  padding: 0.8rem 1rem;
+  background: var(--ifm-color-emphasis-100);
+}
+
+.releaseEmptyState p {
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .releaseHeader {
+    display: block;
+  }
+
+  .releaseTags {
+    justify-content: flex-start;
+    margin-top: 0.65rem;
+    min-width: 0;
+  }
+}
