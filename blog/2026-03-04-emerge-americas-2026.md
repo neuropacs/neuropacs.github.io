@@ -11,7 +11,7 @@ eMerge Americas is a catalyst, an accelerator, and a global tech conference + ex
 
 The eMerge experience is powered by people on the front lines of innovation. From C-suite leaders and startup founders to policymakers, the community represents every corner of the tech ecosystem. Whether you’re attending to invest, scale, partner, or learn, this is where unexpected collisions turn into lasting connections.
 
-<!-- truncate -->
+{/* truncate */}
 
 If you are attending, we'd love to connect. Find us on LinkedIn or connect with our team (kerrick@neuropacs.com) to find a time to meet up in-person!
 
