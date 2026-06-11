@@ -16,6 +16,7 @@
         <content type="html"><![CDATA[<p>The Neuropacs Agent is now fully supported in Windows environments through virtualization.</p>
 <p>Customers can deploy the Agent on Windows systems using VMware or Hyper-V, enabling integration into Windows-based infrastructure while maintaining the consistency of a Linux-based runtime. Portable and customizable virtual machine deployments make it easier to support a wide range of operational environments across healthcare and research settings.</p>
 <p>For many hospitals, imaging centers, and research teams, Windows remains a central part of the local IT environment. In those settings, introducing a new platform often depends not only on performance and functionality, but also on how easily it can be integrated into the systems administrators already manage. By supporting deployment through portable and configurable virtual machine files, the Neuropacs Agent can be introduced in a way that aligns more naturally with existing infrastructure, internal policies, and deployment workflows.</p>
+<!-- -->
 <p>This update is part of a broader effort to make the Neuropacs Agent easier to adopt across a wide range of technical environments. We recognize that deployment flexibility is a critical part of real-world adoption, especially in healthcare and research settings where infrastructure standards, procurement requirements, and security expectations can vary significantly from one organization to another. Expanding support for Windows-based deployment is an important step toward meeting customers where they are and making advanced imaging diagnostics more accessible in practice.</p>
 <p>Updated documentation, including deployment guidance and environment details, is available here:
 <a class="" href="https://neuropacs.github.io/docs/integrations/agent-application">Agent application documentation</a></p>]]></content>
@@ -35,6 +36,7 @@
         <content type="html"><![CDATA[<p>Neuropacs will be attending eMerge Americas 2026, this April 22-24 in Miami!</p>
 <p>eMerge Americas is a catalyst, an accelerator, and a global tech conference + expo driving innovative advancements in AI, National Security, Health, and Finance.</p>
 <p>The eMerge experience is powered by people on the front lines of innovation. From C-suite leaders and startup founders to policymakers, the community represents every corner of the tech ecosystem. Whether you’re attending to invest, scale, partner, or learn, this is where unexpected collisions turn into lasting connections.</p>
+<!-- -->
 <p>If you are attending, we'd love to connect. Find us on LinkedIn or connect with our team (<a href="mailto:kerrick@neuropacs.com" target="_blank" rel="noopener noreferrer" class="">kerrick@neuropacs.com</a>) to find a time to meet up in-person!</p>
 <p>Read more about eMerge Americas 2026 here: <a href="https://emergeamericas.com/" target="_blank" rel="noopener noreferrer" class="">https://emergeamericas.com/</a></p>]]></content>
         <author>
@@ -54,6 +56,7 @@
         <content type="html"><![CDATA[<p>We have now released v1.0.0 of our Neuropacs Agent.</p>
 <p>The Neuropacs Agent is an on-premises software solution designed to operate within your data center, seamlessly integrating with your existing infrastructure while securely interfacing with the Neuropacs Cloud. It establishes an encrypted connection to transmit medical imaging for analysis, manage orders, retrieve reports, and automatically route them to designated destinations.</p>
 <p>The Agent also supports fully on-premises workflows to provide an additional layer of data protection and control. With local quality control and preprocessing performed entirely within your internal network, sensitive data remains on site at all times—never leaving your environment.</p>
+<!-- -->
 <p>Read more about the Neuropacs Agent <a class="" href="https://neuropacs.github.io/docs/integrations/agent-application">here</a>.</p>]]></content>
         <author>
             <name>Kerrick Cavanaugh</name>
@@ -68,6 +71,7 @@
         <updated>2026-02-12T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Our official SOC 2 Type II audit has successfully concluded. After months of dedicated effort, we have achieved SOC 2 Type II compliance! This milestone reinforces our commitment to security, reliability, and operational excellence, and positions us to serve as a trusted, high-quality partner to organizations operating in demanding and regulated environments.]]></summary>
         <content type="html"><![CDATA[<p>Our official SOC 2 Type II audit has successfully concluded. After months of dedicated effort, we have achieved SOC 2 Type II compliance! This milestone reinforces our commitment to security, reliability, and operational excellence, and positions us to serve as a trusted, high-quality partner to organizations operating in demanding and regulated environments.</p>
+<!-- -->
 <p>Our official SOC 2 Type II compliance report can be provided upon request. The audit has been performed by a 3rd party organization.</p>
 <p>Read more about SOC-2 Type II here: <a href="https://www.imperva.com/learn/data-security/soc-2-compliance/" target="_blank" rel="noopener noreferrer" class="">https://www.imperva.com/learn/data-security/soc-2-compliance/</a></p>]]></content>
         <author>
@@ -83,6 +87,7 @@
         <updated>2026-02-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Our official SOC-2 Type II audit is in progress as of 2/2! With a SOC-2 Type II certificate, we provide assurance to our partners that we are capable of handling sensitive information, operate like a mature business, and comply with the strictest of security standards & frameworks.]]></summary>
         <content type="html"><![CDATA[<p>Our official SOC-2 Type II audit is in progress as of 2/2! With a SOC-2 Type II certificate, we provide assurance to our partners that we are capable of handling sensitive information, operate like a mature business, and comply with the strictest of security standards &amp; frameworks.</p>
+<!-- -->
 <p>The audit is being performed by a 3rd party organization.</p>
 <p>Read more about SOC-2 Type II here: <a href="https://www.imperva.com/learn/data-security/soc-2-compliance/" target="_blank" rel="noopener noreferrer" class="">https://www.imperva.com/learn/data-security/soc-2-compliance/</a></p>]]></content>
         <author>
@@ -105,6 +110,7 @@
 <li class="">AIND-AD - Automated Index of NeuroDegeneration - Alzheimer's Disease</li>
 </ul>
 <p>Ensure your organization has access to new products before submitting an order! For more information, visit our website or contact support at <a href="mailto:support@neuropacs.com" target="_blank" rel="noopener noreferrer" class="">support@neuropacs.com</a>.</p>
+<!-- -->
 <p>Read more about our product line on our official website: <a href="https://neuropacs.com/" target="_blank" rel="noopener noreferrer" class="">https://neuropacs.com/</a></p>]]></content>
         <author>
             <name>Kerrick Cavanaugh</name>
@@ -120,6 +126,7 @@
         <updated>2025-07-16T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[We’re excited to introduce our secure web portal, designed to streamline your imaging workflows with a dynamic, user-friendly interface. Whether you're a clinician, researcher, or operations lead, the portal provides everything you need to securely upload imaging, manage studies, and retrive analysis reports.]]></summary>
         <content type="html"><![CDATA[<p>We’re excited to introduce our secure web portal, designed to streamline your imaging workflows with a dynamic, user-friendly interface. Whether you're a clinician, researcher, or operations lead, the portal provides everything you need to securely upload imaging, manage studies, and retrive analysis reports.</p>
+<!-- -->
 <p>Built for efficiency and peace of mind, the portal supports both manual uploads and automated integration with your existing infrastructure.</p>
 <p>Login now and experience a more intuitive, secure way to manage your orders and diagnostic reports.</p>]]></content>
         <author>
@@ -136,6 +143,7 @@
         <updated>2025-05-20T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Welcome to the new Neuropacs documentation site! Here you will find information on our full-suite of integration options, available products, imaging input specifications, security information, and more.]]></summary>
         <content type="html"><![CDATA[<p>Welcome to the new Neuropacs documentation site! Here you will find information on our full-suite of integration options, available products, imaging input specifications, security information, and more.</p>
+<!-- -->
 <p>This site will frequently be updated to inform our users of the latest changes to the Neuropacs ecosystem (e.g., deprecations/EOL, new products, service updates). Check back regularly to ensure you have the latest information.</p>]]></content>
         <author>
             <name>Kerrick Cavanaugh</name>
